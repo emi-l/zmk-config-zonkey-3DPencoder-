@@ -197,10 +197,10 @@
             // | CTRL | WIN | ALT |HENKAN|SPACE|MUHENKAN|       | BS | ENT |      　　　　       | DEL |           
 
             bindings = <
-&kp Q           &kp W         &kp E         &kp R             &kp T                                     &kp Y        &kp U      &kp I      &kp O    &kp P
-&kp A           &kp S         &kp D         &kp F             &kp G         &kp LS(LG(S))    &kp B      &kp H        &kp J      &kp K      &kp L    &kp BACKSPACE
-&kp LEFT_SHIFT  &kp Z         &kp X         &kp C             &kp V         &kp B            &kp MINUS  &kp N        &kp M      &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_ALT  &lt 1 SPACE                 &lt 2 SPACE  &kp LCTRL                                     &kp ESCAPE
+&kp Q           &kp W         &kp E       &kp R             &kp T                                    &kp Y        &kp U      &kp I      &kp O    &kp P
+&kp A           &kp S         &kp D       &kp F             &kp G         &kp LS(LG(S))    &kp B     &kp H        &kp J      &kp K      &kp L    &kp RETURN
+&kp LEFT_SHIFT  &kp Z         &kp X       &kp C             &kp V         &kp B            &kp BSPC  &kp N        &kp M      &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL       &kp LEFT_WIN  &kp ESCAPE  &kp LEFT_COMMAND  &kp LEFT_ALT  &lt 1 SPACE                &lt 2 SPACE  &kp LCTRL                                  &kp ESCAPE
             >;
 
             sensor-bindings =
@@ -216,10 +216,10 @@
             // | CTRL| WIN | ALT |HENKAN|SPACE|MUHENKAN|         | BS | ENT |                   | DEL |
 
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5                                     &kp MINUS      &kp EQUAL  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0  &trans                &kp JP_EISU  &trans         &trans     &trans         &kp SEMICOLON     &kp SINGLE_QUOTE
-&kp LEFT_SHIFT  &trans        &trans        &trans            &trans        &trans                &trans       &kp JP_KANA    &moF       &moG           &moH              &kp ENTER
-&mt LCTL ESC    &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE   &lt 1 INT_MUHENKAN                 &kp BACKSPACE  &kp ENTER                                                      &kp DEL
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &kp MINUS  &kp EQUAL  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans    &trans  &trans     &trans     &trans         &kp SEMICOLON     &kp SINGLE_QUOTE
+&kp LEFT_SHIFT  &trans        &trans        &trans        &trans        &trans    &trans  &trans     &trans     &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION
+&trans          &trans        &trans        &trans        &trans        &trans            &trans     &trans                                                         &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -233,10 +233,10 @@
             // | CTRL| WIN | ALT |HENKAN|SPACE|MUHENKAN|         | BS | ENT |                   | DEL |
 
             bindings = <
-&kp EXCL        &kp AT         &kp HASH      &kp DOLLAR            &kp PERCENT                                          &trans         &mo7       &mo8            &mo9            &mo0
-&kp CARET       &kp AMPERSAND  &kp ASTRK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                &trans  &trans         &trans     &trans          &kp UP_ARROW    &trans
-&kp LEFT_SHIFT  &trans         &trans        &trans                &trans                 &trans                &trans  &trans         &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-&kp LCTRL       &kp LEFT_WIN   &kp LEFT_ALT  &lt 3 INT_HENKAN      &lt 2 SPACE            &lt 1 INT_MUHENKAN            &kp BACKSPACE  &kp ENTER                                                   &kp DEL
+&kp EXCL        &kp AT         &kp HASH      &kp DOLLAR            &kp PERCENT                              &kp UNDER  &kp EQUAL  &kp PIPE       &kp LEFT_BRACE    &kp RIGHT_BRACE
+&kp CARET       &kp AMPERSAND  &kp ASTRK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &trans  &trans     &trans     &trans         &kp COLON         &kp DOUBLE_QUOTES
+&kp LEFT_SHIFT  &trans         &trans        &trans                &trans                 &trans    &trans  &trans     &trans     &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION
+&kp LCTRL       &kp LEFT_WIN   &kp LEFT_ALT  &trans                &trans                 &trans            &trans     &trans                                                         &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
