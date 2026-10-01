@@ -22,14 +22,14 @@ layers:
   - J
   - K
   - L
-  - BACKSPACE
+  - RETURN
   - LEFT SHIFT
   - Z
   - X
   - C
   - V
   - B
-  - '-'
+  - BSPC
   - N
   - M
   - ','
@@ -37,7 +37,7 @@ layers:
   - /
   - LCTRL
   - LEFT WIN
-  - LEFT ALT
+  - ESCAPE
   - LEFT COMMAND
   - LEFT ALT
   - {t: SPACE, h: '1'}
@@ -61,7 +61,7 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - LANGUAGE 2
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -74,31 +74,31 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LANGUAGE 1
-  - {t: ;, s: KP PLUS}
-  - {t: '''', s: '"'}
-  - {t: \, s: '~'}
-  - ENTER
-  - {t: ESC, h: LCTL}
-  - LEFT WIN
-  - LEFT ALT
-  - {t: INT HENKAN, h: '3'}
-  - {t: SPACE, h: '2'}
-  - {t: INT MUHENKAN, h: '1', type: held}
-  - BACKSPACE
-  - ENTER
-  - DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - <
+  - '>'
+  - '?'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   '2':
   - '!'
   - '@'
   - '#'
   - $
   - '%'
-  - {t: ▽, type: trans}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: Sft+9}
+  - _
+  - '='
+  - '|'
+  - '{'
+  - '}'
   - ^
   - '&'
   - '*'
@@ -109,8 +109,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - UP ARROW
-  - {t: ▽, type: trans}
+  - ':'
+  - '"'
   - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -120,18 +120,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
+  - <
+  - '>'
+  - '?'
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: INT HENKAN, h: '3'}
-  - {t: SPACE, h: '2'}
-  - {t: INT MUHENKAN, h: '1'}
-  - {t: BACKSPACE, type: held}
-  - ENTER
-  - DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - ESCAPE
   '3':
   - F1
   - F2
@@ -170,9 +170,9 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: INT HENKAN, h: '3', type: held}
+  - {t: INT HENKAN, h: '3'}
   - {t: SPACE, h: '2'}
-  - {t: INT MUHENKAN, h: '1', type: held}
+  - {t: INT MUHENKAN, h: '1'}
   - BACKSPACE
   - ENTER
   - DEL
