@@ -36,7 +36,7 @@ layers:
   - .
   - /
   - LCTRL
-  - LEFT WIN
+  - {t: LEFT SHIFT, h: '4'}
   - ESCAPE
   - LEFT COMMAND
   - LEFT ALT
@@ -62,7 +62,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ;
@@ -106,7 +106,7 @@ layers:
   - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '~'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ':'
@@ -212,11 +212,11 @@ layers:
   - KP 3
   - '='
   - LCTRL
-  - LEFT WIN
+  - {t: LEFT WIN, type: held}
   - LEFT ALT
-  - INT HENKAN
-  - SPACE
-  - INT MUHENKAN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - BACKSPACE
   - ENTER
   - DEL
