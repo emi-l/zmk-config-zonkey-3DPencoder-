@@ -61,8 +61,8 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '`'
+  - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ;
@@ -105,8 +105,8 @@ layers:
   - (
   - )
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '~'
+  - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ':'
